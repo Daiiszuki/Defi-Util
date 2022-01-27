@@ -13,7 +13,7 @@ from json import loads
 from decimal import Decimal
 from dotenv import load_dotenv 
 load_dotenv()
-infura_url = "wss://mainnet.infura.io/ws/v3/4ef10d02317e459f82301f76926af721"
+infura_url = "wss://mainnet.infura.io/ws/v3/"
 privateKey = os.getenv("PRIVATE_KEY")
 
 web3 = Web3(Web3.WebsocketProvider(infura_url, websocket_timeout=60))
