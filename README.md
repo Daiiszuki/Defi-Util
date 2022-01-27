@@ -1,2 +1,3 @@
 # DEFI
-/Scripts - Test/educational/utility 
+/Scripts - Useful brownie scripts
+
